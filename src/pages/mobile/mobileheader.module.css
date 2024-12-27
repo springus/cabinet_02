@@ -1,0 +1,166 @@
+header#mobile_header {
+  width: 100%;
+  height: 80px;
+  padding: 10px 16px 10px 16px;
+  box-sizing: border-box;
+  background: #DBA75C;
+}
+
+div#header_wrap {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+div#menu_icon {
+  height: 60px;
+  float: left;
+}
+
+div#menu_icon i {
+  font-size: 30px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+nav#gnb_wrap {
+  width: 70vw;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: scroll;
+  z-index: 5555;
+  background:#f2f2f2;
+}
+
+span#close_btn {
+  position: absolute;
+  right: 20px;
+  top: 15px
+}
+
+span#close_btn i {
+  font-size: 24px;
+}
+
+div#login_wrap {
+  width: 100%;
+  height: 220px;
+  padding-left: 20px;
+  padding-top: 60px;
+  box-sizing: border-box;
+  background: #DBA75C;
+  /* background: #005B4A; */
+}
+
+p.login_text {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px 0px 0px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  font: normal 20px/30px "Noto Sans KR";
+  text-align: center;
+  background: #005B4A;
+}
+
+p.login_guide {
+  width: 100%;
+  height: 40px;
+  font: normal 16px/40px "Noto Sans KR";
+}
+
+div#login_wrap i {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+div#gnb_inner_wrap {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-top:20px;
+  box-sizing: border-box;
+}
+
+ul#gnb_inner {
+  width: 100%;
+}
+
+ul#gnb_inner>li {
+  width: 100%;
+  height: 50px;
+  border-bottom: solid 1px #000000;
+  font: normal 18px/50px "Noto Sans KR";
+  /* color: #ffffff; */
+  overflow: hidden;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  -webkit-transition: 0.4s ease;
+}
+
+ul#gnb_inner>li:last-child {
+  border-bottom: none;
+}
+
+ul#gnb_inner>li>i {
+  font-size: 12px;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+ul#gnb_inner>li.selected i {
+  transform:rotate(90deg);
+  -webkit-transition: 0.3s ease;
+}
+
+ul#gnb_inner_list {
+  width: 100%;
+  height:auto;
+  /* margin-top:10px; */
+}
+
+ul#gnb_inner_list>li {
+  font: normal 15px/50px "Noto Sans KR";
+  text-indent: 10px;
+}
+
+
+
+h1#logo {
+  height: 60px;
+  float: left;
+  line-height: 70px;
+}
+
+h1#logo>img {
+  width: 100%;
+}
+
+div#search_icon {
+  height: 30px;
+  font-size: 30px;
+  line-height: 60px;
+  color: #ffffff;
+  float: right;
+}
+
+div#graylayer {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.8;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 4444;
+}

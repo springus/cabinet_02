@@ -1,0 +1,247 @@
+section#basket_wrap {
+  width: 100%;
+  min-height: 1000px;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+
+span#backpage{
+  font-size:26px;
+  position:absolute;
+  left:22px;
+  top:17px;
+}
+
+section#basket_wrap>h2 {
+  width: 100%;
+  height: 60px;
+  background: url(/public/images/titleback.png) no-repeat center center;
+  text-align: center;
+  font: bold 18px/60px "Noto Sans KR";
+}
+
+div#basket_category {
+  width: 100%;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+span#basket_category_title {
+  width: 100px;
+  height: 30px;
+  font: normal 20px/30px "Noto Sans KR";
+  float: left;
+}
+
+ul#basket_category_inner {
+  width: 300px;
+  height: 60px;
+  /* display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-around;
+  align-content:center; */
+}
+
+ul#basket_category_inner>li {
+  font: normal 16px/30px "Noto Sans KR";
+}
+
+ul#basket_category_inner>li.selected{
+  font-weight:bold;
+  color:#ff9900;
+}
+
+div#basket_category {
+  width: 100%;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index:6;
+}
+
+span#basket_category_title {
+  width: 100px;
+  height: 30px;
+  font: normal 16px/30px "Noto Sans KR";
+  float: left;
+}
+
+ul#basket_category_inner {
+  width: 60px;
+  height: 30px;
+  border: solid 1px #888888;
+  overflow: hidden;
+  float: left;
+}
+
+ul#basket_category_inner>li {
+  width: 100%;
+  height: 100%;
+  font: normal 16px/30px "Noto Sans KR";
+  background: #f2f2f2;
+  border:solid 1px #f2f2f2;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+
+div#basket_category>button {
+  width: 20px;
+  height: 20px;
+  margin-top: 6px;
+  position: absolute;
+  left: 155px;
+  top: 20px;
+}
+
+div#basket_category>button>i {
+  font-size: 14px;
+}
+
+/* div#basket_select_wrap {
+  width: 100%;
+  height: 40px;
+  margin-top: 65px;
+  border-bottom: solid 1px #888888;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+input#select_check {
+  width: 15px;
+  height: 25px;
+  float: left;
+}
+
+p#select_all {
+  font: normal 16px/30px "Noto Sans KR";
+  float: left;
+}
+
+p#select_delete {
+  font: normal 16px/30px "Noto Sans KR";
+  float: right;
+  text-align: right;
+} */
+
+div#basket_inner_wrap {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+ul#bakset_inner>li {
+  width: 100%;
+  height: 260px;
+  border-bottom: solid 1px #888888;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+div#basket_list_wrap {
+  width: 100%;
+  height: 100%;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+
+div#basket_list_wrap>input {
+  width: 15px;
+  height: 25px;
+  float: left;
+}
+
+div#basket_list_img {
+  width: 120px;
+  height: 150px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+div#basket_list_img img {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+div#basket_list_box {
+  width: 200px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+div#basket_list_box>p {
+  width: 100%;
+  height:20px;
+  font: normal 14px/20px "Noto Sans KR";
+}
+
+div#basket_list_box>p#basket_list_title{
+  width:100%;
+  font:bold 16px "Noto Sans KR";
+  margin-bottom:10px;
+}
+
+p#basket_list_cost {
+  width: 80px;
+  font: normal 12px "Noto Sans KR";
+  float:left;
+}
+
+span#basket_cost_num {
+  text-decoration: line-through;
+}
+
+
+p#basket_list_price {
+  width: 80px;
+  font: bold 14px "Noto Sans KR";
+}
+
+span#basket_price_num{
+  font-size:16px;
+  color:red;
+}
+
+p#basket_list_text {
+  width: 100%;
+  height: 70px;
+  font: normal 12px "Noto Sans KR";
+  float: left;
+  padding:10px 30px 0px 30px;
+  box-sizing: border-box;
+}
+
+span#close_btn{
+  position:absolute;
+  right:12px;
+  top:6px;
+}
+
+span#close_btn>i{
+  font-size:18px;
+}

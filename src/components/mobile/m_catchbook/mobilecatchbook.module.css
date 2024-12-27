@@ -1,0 +1,117 @@
+section#catchbook_wrap {
+  width: 100%;
+  height: 460px;
+  margin-bottom:80px;
+}
+
+h2#catchbook_title {
+  width: 100%;
+  height: 50px;
+  font: bold 20px/50px "Noto Sans KR";
+  background: #dfdfdf;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+div#catchbook_author_wrap{
+  width:100%;
+  height:100%;
+  padding-left:16px;
+  padding-right:16px;
+  box-sizing:border-box;
+  margin-top:30px;
+}
+
+dl#author_inner {
+  width: 220px;
+  height: 250px;
+  padding-left: 16px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  border-radius:20px;
+  background: #eeeeee;
+  float: left;
+}
+
+dt.author_title {
+  width: 100%;
+  height: 30px;
+  font: normal 16px/30px "Noto Sans KR";
+  margin-bottom: 10px;
+}
+
+dd.author_text {
+  width: 100%;
+  height: 30px;
+  font: normal 14px/30px "Noto Sans KR";
+}
+
+span.author_intro {
+  font: normal 12px/30px "Noto Sans KR";
+  margin-right: 10px;
+}
+
+div#author_img {
+  width: 120px;
+  height: 250px;
+  padding-top: 30px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+div#author_img>p {
+  width: 120px;
+  height: 180px;
+}
+
+div#author_img img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+
+div#author_book {
+  width: 100%;
+  height: 140px;
+  margin-top: 20px;
+  /* background:#eeeeee; */
+  float: left;
+}
+
+div#author_book_img {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-left: 10px;
+}
+
+div#author_book_img img{
+  width:120px;
+  display:block;
+}
+
+div#author_book_text {
+  width: 200px;
+  height: 120px;
+  float: left;
+  padding-top:10px;
+  padding-right:20px;
+  box-sizing:border-box;
+  margin-left: 20px;
+}
+
+p#author_book_title{
+  font:bold 12px "Noto Sans KR";
+}
+
+p#author_book_text{
+  font:normal 10px "Noto Sans KR";
+  margin-top:10px;
+}
+
+p#author_book_intro{
+  font:bold 10px "Noto Sans KR";
+  margin-top:10px;
+}

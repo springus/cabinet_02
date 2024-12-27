@@ -1,0 +1,50 @@
+section#bestgenre_wrap{
+  width:100%;
+  height:330px;
+  padding-left:16px;
+  padding-right:16px;
+  margin-top:40px;
+  box-sizing:border-box;
+  background:yellow;
+}
+
+h2#bestgenre_title{
+  width:100%;
+  height:30px;
+  font:bold 20px/30px "Noto Sans KR";
+  position:relative;
+  left:0px;
+  top:0px;
+}
+
+h2#bestgenre_title::after{
+  content:"";
+  display:block;
+  width:240px;
+  height:1px;
+  background:#000000;
+  position:absolute;
+  right:0px;
+  top:15px;
+}
+
+ul#bestgenre_inner{
+  width:100%;
+  height:50px;
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-around;
+  align-content:center;
+}
+
+ul#bestgenre_inner>li{
+  font:normal 18px/50px "Noto Sans KR";
+}
+
+div#bestgenre_list{
+  width:100%;
+  height:230px;
+  background:blue;
+}

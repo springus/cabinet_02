@@ -1,0 +1,79 @@
+section#recommend_wrap {
+  width: 100%;
+  height: 550px;
+  border-radius: 20px 20px 0px 0px;
+  padding-left: 16px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  position: relative;
+  left: 0px;
+  top: -20px;
+  background: #ffffff;
+}
+
+ul#recommend_inner {
+  width: 120%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  overflow: hidden;
+}
+
+ul#recommend_inner>li {
+  width: 100%;
+  height: 50px;
+  font: bold 18px/50px "Noto Sans KR";
+  /* background:red; */
+}
+
+ul#recommend_inner>li.selected {
+  /* color:#005B4A; */
+  color: #ff9900;
+}
+
+ul#bestseller_inner {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  overflow: hidden;
+  padding-top: 35px;
+  box-sizing: border-box;
+}
+
+li#bestsller_item {
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+  background: #dfdfdf;
+}
+
+ul#bestseller_inner>li img {
+  width: 160px;
+}
+
+p#bestseller_title {
+  font: normal 16px "Noto Sans KR";
+  padding: 10px 16px 0px 16px;
+  box-sizing: border-box;
+}
+
+p#bestseller_name {
+  font: normal 14px "Noto Sans KR";
+  padding-left:16px;
+  box-sizing: border-box;
+}
+
+
+ul#bestseller_inner>li p#morebook {
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  font: normal 16px/30px "Noto Sans KR";
+  /* color:black; */
+}

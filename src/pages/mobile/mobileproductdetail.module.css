@@ -1,0 +1,189 @@
+section#detailpage_wrap {
+  width: 100%;
+  min-height: 1000px;
+}
+
+div#book_img_wrap {
+  width: 200px;
+  height: 280px;
+  margin: 0px auto;
+  padding-top: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+div#book_img_wrap img {
+  width: 200px;
+}
+
+div#book_intro_wrap {
+  width: 100%;
+  height: 360px;
+  padding: 50px 20px 0px 20px;
+  box-sizing: border-box;
+  background: wheat;
+}
+
+p#book_intro_title {
+  width: 100%;
+  height: 50px;
+  font: bold 20px/50px "Noto Sans KR";
+}
+
+p#book_intro_name {
+  width: 120px;
+  font: normal 14px "Noto Sans KR";
+  float: left;
+}
+
+p#book_intro_publish {
+  width: 100%;
+  font: normal 14px "Noto Sans KR";
+}
+
+p#book_intro_date {
+  width: 100%;
+  font: normal 14px "Noto Sans KR";
+  margin-top: 20px;
+}
+
+p#book_intro_write {
+  width: 100%;
+  margin-top: 30px;
+  font: normal 12px "Noto Sans KR";
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+button.book_write_detail {
+  width: 100px;
+  height: 30px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 40px;
+  border: solid 1px #888888;
+  border-radius: 20px;
+}
+
+
+/* div#bookcard_wrap {
+  width: 100%;
+  height: 320px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+} */
+
+/* ul#bookcard_inner {
+  width: 100%;
+  height: 250px;
+} */
+
+ul#bookcard_inner img {
+  width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+div.book_detail_wrap {
+  width: 100%;
+  min-height: 340px;
+}
+
+ul.book_detail_inner {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  background: #dfdfdf;
+  margin-top: 20px;
+}
+
+ul.book_detail_inner>li {
+  font: bold 16px/50px "Noto Sans KR";
+}
+
+div#book_table_wrap {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+ul#book_table {
+  width: 100%;
+  height: 190px;
+  padding-left: 40px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+ul#book_table>li {
+  width: 100%;
+  font: normal 14px/26px "Noto Sans KR";
+  list-style-type: disc;
+}
+
+div#book_publish_wrap {
+  width: 100%;
+  height: 260px;
+  padding: 40px 16px 20px 16px;
+  box-sizing: border-box;
+}
+
+p#book_publish_title {
+  width: 100%;
+  height: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  font: bold 16px "Noto Sans KR";
+}
+
+p#book_publish_text {
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  font: normal 14px "Noto Sans KR";
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+div#book_anothor_wrap {
+  width: 100%;
+  height: 260px;
+}
+
+ul#book_anothor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+div.book_anothor_img {
+  width: 120px;
+  height: 180px;
+}
+
+div.book_anothor_img img {
+  width: 120px;
+}
+
+
+p.book_anothor_title {
+  font: normal 12px "Noto Sans KR";
+  text-align: center;
+}

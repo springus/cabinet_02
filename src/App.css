@@ -1,0 +1,14 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.hidden{
+  width:1px;
+  height:1px;
+  font-size:0px;
+  line-height:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+}

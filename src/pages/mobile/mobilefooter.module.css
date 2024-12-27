@@ -1,0 +1,36 @@
+footer#mobile_footer{
+  width:100%;
+  height:80px;
+  padding:10px 16px 10px 16px;
+  box-sizing:border-box;
+  position:relative;
+  left:0px;
+  bottom:0px;
+  background:#DBA75C;
+}
+
+div#footer_wrap{
+  width:100%;
+  height:60px;
+}
+
+ul#footer_inner{
+  width:100%;
+  height:50px;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-around;
+  align-content:center;
+  text-align:center;
+}
+
+ul#footer_inner>li i{
+  font-size:26px;
+}
+
+ul#footer_inner>li p{
+  font:normal 12px "Noto Sans KR";
+  padding-top:5px;
+  box-sizing:border-box;
+}

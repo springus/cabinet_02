@@ -1,0 +1,331 @@
+section#bookdetail_wrap {
+  width: 100%;
+  min-height: 1000px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+div#bookdetail_inner {
+  width: 1320px;
+  height: 680px;
+  margin: 0px auto;
+  margin-top:40px;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+div#bookdetail_inner_textbox {
+  width: 630px;
+  height: 700px;
+  padding-left: 60px;
+  box-sizing: border-box;
+  float: left;
+}
+
+p#bookdetail_title {
+  width: 100%;
+  height: 50px;
+  font: normal 36px/50px "Noto Sans KR";
+}
+
+p#bookdetail_name {
+  width: 100%;
+  height: 30px;
+  font: normal 16px/30px "Noto Sans KR";
+}
+
+span#bookdetail_publish {
+  margin-left: 20px;
+}
+
+p#bookdetail_write {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  font: normal 16px "Noto Sans KR";
+  text-align: justify;
+  margin-top: 20px;
+  border-top: solid 1px black;
+  padding-top: 30px;
+  padding-left:30px;
+  padding-right:30px;
+  box-sizing: border-box;
+}
+
+p#bookdetail_text {
+  width: 460px;
+  height: 120px;
+  font: bold 18px "Noto Sans KR";
+  text-align:justify;
+  margin-top:60px;
+  margin-left:25px;
+  padding-left:45px;
+  /* padding-right:60px; */
+  box-sizing:border-box;
+}
+
+div.bookdetail_approve_box {
+  width: 280px;
+  height: 150px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  /* padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px; */
+  /* margin-top:20px; */
+  padding:30px;
+  box-sizing:border-box;
+  float: left;
+}
+
+div.bookdetail_approve_box p {
+  width:100%;
+  height:45px;
+  font: normal 14px/50px "Noto Sans KR";
+  float:left;
+}
+
+div.bookdetail_approve_box span{
+  font:normal 18px "Noto Sans KR";
+  padding-left:80px;
+  box-sizing:border-box;
+}
+
+span#bookdetail_cost_num {
+  text-decoration:line-through;
+  padding-left:93px;
+  box-sizing:border-box;
+}
+
+span#bookdetail_price_num{
+  font:normal 24px "Noto Sans KR";
+  color:red;
+}
+
+div#bookdetail_img {
+  width: 400px;
+  height: 100%;
+  margin-left: 150px;
+  float: left;
+}
+
+div#bookdetail_img>img {
+  width: 400px;
+}
+
+div#total_price_wrap {
+  width: 100%;
+  height: 90px;
+  background: #dba75c;
+  /* margin-top:20px; */
+  padding-left: 180px;
+  box-sizing: border-box;
+  /* float:left; */
+  clear:both;
+}
+
+div#total_price_wrap1{
+  width:50%;
+  height:100%;
+  float:left;
+}
+
+p#total_price {
+  width: 630px;
+  height: 50px;
+  font: normal 18px/50px "Noto Sans KR";
+  color: white;
+  text-align: center;
+  float: left;
+}
+
+span#total_price_num {
+  font: bold 24px/90px "Noto Sans KR";
+  margin-left: 100px;
+}
+
+div#total_price_add {
+  width: 110px;
+  height: 40px;
+  background: white;
+  border: solid 1px #855d23;
+  border-radius: 10px;
+  margin-top:25px;
+  overflow:hidden;
+  float: left;
+}
+
+div#total_price_add button {
+  width: 30px;
+  height: 40px;
+  font-weight: normal;
+  font-size:18px;
+  line-height:40px;
+  text-align: center;
+  background:white;
+  border:none;
+  float: left;
+}
+
+p#total_add_num {
+  width: 50px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border-left: solid 1px #888888;
+  border-right: solid 1px #888888;
+  box-sizing: border-box;
+  float: left;
+}
+
+div#total_price_wrap2{
+  width:30%;
+  height:100%;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-content:center;
+}
+
+button.total_button {
+  width: 120px;
+  height: 46px;
+  font: normal 16px "Noto Sans KR";
+  text-align: center;
+  background: white;
+  border: solid 1px #855d23;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+button.total_button:nth-child(2){
+  margin-left:60px;
+}
+
+section#bookcard {
+  width: 1320px;
+  height: 450px;
+  margin: 100px auto;
+}
+
+h3.book_intro_text {
+  width: 100%;
+  height: 50px;
+  font: bold 24px/50px "Noto Sans KR";
+  border-bottom: solid 1px #888888;
+  margin-bottom: 80px;
+  float:left;
+}
+
+ul#bookcard_inner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+ul#bookcard_inner img {
+  border-radius: 20px;
+}
+
+section#book_intro_wrap {
+  width: 1280px;
+  height: 200px;
+  margin: 0px auto;
+}
+
+div#book_intro {
+  width: 840px;
+  height: 100%;
+  float: left;
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding-left:20px;
+  padding-right:20px;
+  box-sizing:border-box;
+}
+
+p#book_intro_title{
+  font:normal 24px "Noto Sans KR";
+  line-height:60px;
+}
+
+p#book_intro_text{
+  font:noraml 16px "Noto Sans KR";
+  line-height:21px;
+  margin-top:30px;
+}
+
+div#book_intro_ditail {
+  width: 400px;
+  height: 100%;
+  float: left;
+  background: #f2f2f2;
+  margin-left: 30px;
+  border-radius: 20px;
+  padding:40px;
+  box-sizing:border-box;
+}
+
+div#book_intro_ditail p{
+  font:normal 16px/30px "Noto Sans KR";
+}
+
+div#book_intro_ditail span{
+  font:bold 14px/30px "Noto Sans KR";
+  padding-left:80px;
+}
+
+span#ditail_num{
+  padding-left:100px;
+}
+
+section#intro_publish_wrap {
+  width: 1280px;
+  height: 500px;
+  margin: 100px auto;
+  border-bottom: solid 1px #888888;
+}
+
+
+div#intro_publish_text {
+  width: 840px;
+  height: 100%;
+  float: left;
+}
+
+p#publish_text_top {
+  font: bold 18px "Noto Sans KR";
+}
+
+p#publish_text_mid {
+  font: normal 16px "Noto Sans KR";
+  text-align: justify;
+  letter-spacing: -2px;
+  margin-top: 30px;
+}
+
+p#publish_text_bottom {
+  font: bold 16px "Noto Sans KR";
+  margin-top: 20px;
+}
+
+div#intro_publish_img {
+  width: 400px;
+  height: 100%;
+  float: left;
+  margin-left: 40px;
+  text-align: center;
+}
+
+div#intro_publish_img img {
+  border-radius: 20px;
+}

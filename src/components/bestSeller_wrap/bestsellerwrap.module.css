@@ -1,0 +1,199 @@
+nav.snb_inner {
+  width: 1320px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+ul#snb_list {
+  width: 600px;
+  height: 100%;
+}
+
+ul#snb_list>li {
+  width:140px;
+  height:100%;
+  border: solid 1px #dfdfdf;
+  border-radius:5px 5px 0px 0px;
+  border-bottom:solid 1px #000000;
+  float:left;
+  border-right:none;
+}
+
+ul#snb_list>li:last-child{
+  border-right:solid 1px #dfdfdf;
+}
+
+ul#snb_list>li.selected{
+  border: solid 1px #000000;
+  border-bottom:none;
+}
+
+ul#snb_list>li.selected a{
+  color:#000000;
+}
+
+ul#snb_list>li>a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  font: normal 16px/50px "Noto Sans KR";
+  /* color:#555555; */
+}
+
+
+section#bestseller_wrap {
+  width: 100%;
+  min-height: 1000px;
+  margin-bottom: 100px;
+}
+
+ul.bestseller_item_inner {
+  width: 1320px;
+  height: auto;
+  margin-top: 60px;
+}
+
+ul.bestseller_item_inner>li {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+div.bestseller_item_rank {
+  width: 1320px;
+  height: 100%;
+  border: solid 1px #dfdfdf;
+  border-radius: 10px;
+  float: left;
+}
+
+p.bestseller_item_num {
+  width: 130px;
+  height: 250px;
+  border-radius: 10px 0px 0px 10px;
+  font: bold 12px "Noto Sans KR";
+  line-height: 250px;
+  text-align: center;
+  background: #f2f2f2;
+  float: left;
+}
+
+p.bestseller_item_img {
+  width: 180px;
+  height: 100%;
+  text-align: center;
+  padding-top: 25px;
+  box-sizing: border-box;
+  float: left;
+}
+
+p.bestseller_item_img>img {
+  width: 140px;
+}
+
+div.bestseller_item_content {
+  width: 280px;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+p.bestseller_item_title {
+  width: 100%;
+  height: 30px;
+  font: bold 18px/30px "Noto Sans KR";
+}
+
+p.bestseller_item_name {
+  width: 100%;
+  height: 30px;
+  font: normal 12px/30px "Noto Sans KR";
+}
+
+span.bestseller_item_publish {
+  margin-left: 20px;
+}
+
+p.bestseller_item_text {
+  width: 100%;
+  height: 60px;
+  font: normal 12px "Noto Sans KR";
+  margin-top: 30px;
+}
+
+span.bestseller_rank_item_date {
+  height: 30px;
+  font: normal 12px/30px "Noto Sans KR";
+  margin-top: 20px;
+  float: right;
+}
+
+div.bestseller_item_write_wrap {
+  width: 520px;
+  height: 100%;
+  border-left: solid 1px #dfdfdf;
+  padding: 60px 40px 0px 40px;
+  box-sizing: border-box;
+  float: left;
+}
+
+p.bestseller_item_write {
+  width: 400px;
+  height: 88px;
+  font: normal 12px "Noto Sans KR";
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  /* float:left; */
+}
+
+span.bestseller_item_detail {
+  width: 74px;
+  height: 30px;
+  margin-top: 40px;
+  border: solid 1px black;
+  border-radius: 10px;
+  font: bold 12px/30px "Noto Sans KR";
+  text-align: center;
+  float: right;
+}
+
+div.bestseller_item_cost_wrap {
+  width: 209px;
+  height: 100%;
+  background: #f2f2f2;
+  border-radius: 0px 10px 10px 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  float: left;
+}
+
+p.bestseller_item_cost {
+  width: 100%;
+  height: 40px;
+  font: normal 12px/40px "Noto Sans KR";
+  text-align: center;
+}
+
+span.bestseller_item_cost_num {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+p.bestseller_item_price {
+  width: 100%;
+  height: 40px;
+  font: normal 12px/40px "Noto Sans KR";
+  text-align: center;
+}
+
+span.bestseller_item_price_num {
+  font-size: 16px;
+  color: red;
+}

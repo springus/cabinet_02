@@ -1,0 +1,30 @@
+section#visual_wrap{
+  width:100%;
+  height:280px;
+  padding-left:16px;
+  padding-right:16px;
+  padding-top:15px;
+  box-sizing:border-box;
+  background:#DBA75C;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+
+/* ul#visual_inner{
+  width:100%;
+  height:180px;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-around;
+  align-content:center;
+  box-sizing:border-box;
+  overflow:hidden;
+} */
+
+section#visual_wrap img{
+  display:block;
+  text-align:center;
+  box-shadow:1px 5px 10px  #222121;
+}

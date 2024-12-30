@@ -1,6 +1,6 @@
 section#moviebook_wrap {
   width: 100%;
-  height: 220px;
+  min-height: 220px;
   padding-left: 16px;
   padding-right: 16px;
   margin-top: 40px;
@@ -11,48 +11,46 @@ h2#moviebook_title {
   width: 100%;
   height: 30px;
   font: bold 20px/30px "Noto Sans KR";
-  position: relative;
-  left: 0px;
-  top: 0px;
+  text-indent:10px;
 }
 
 h2#moviebook_title::after {
   content: "";
   display: block;
-  width: 240px;
+  width: 100%;
   height: 1px;
   background: #000000;
-  position: absolute;
+  position: relative;
   right: 0px;
   top: 15px;
 }
 
 ul#moviebook_inner {
   width: 100%;
-  height: 140px;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
-  margin-top: 20px;
 }
 
 ul#moviebook_inner>li {
-  width: 100px;
-  height: 120px;
+  margin-top: 50px;
+  /* width: 100px; */
+  /* height: 120px; */
 }
 
 p.moviebooks_img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  /* height: 100px; */
   display: block;
   border-radius: 50px;
   overflow: hidden;
 }
 
 p.moviebooks_img img {
-  width: 100px;
+  width: 100%;
   display: block;
 }
 

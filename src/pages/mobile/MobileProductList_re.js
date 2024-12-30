@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import styles from './mobileproductlist.module.css'
 import useProducts from '../../hooks/useProducts'
 import { Link, useNavigate } from 'react-router-dom'
@@ -16,24 +16,50 @@ export default function MobileProductList() {
     { index: 3, text: "과학" }
   ]
   const categoryInner = useRef()
+  const categorylist = useRef()
   const [isCategoryOpen, setIsCategoryOpen] = useState(false)
+
+  let clickCategory = useMemo(() => (false), [])
+
+  const openCategory = useCallback(() => {
+    if (clickCategory !== true) {
+      setIsCategoryOpen(true)
+      gsap.set(categoryInner.current, { overflow: "visible" })
+      // clickCategory = true
+    } else
+      gsap.set(categoryInner.current, {
+        overflow: "hidden", onComplete: () => {
+          // clickCategory = false
+          setIsCategoryOpen(false)
+        }
+      })
+
+  }, [])
+
+  // const categoryHeight = useMemo(() => (60), [])
+
+
+  const closeCategory = useCallback(() => {
+    if (clickCategory === true) {
+      gsap.set(categoryInner.current, {
+        overflow: "hidden", onComplete: () => {
+          // clickCategory = false
+          setIsCategoryOpen(false)
+        }
+      })
+    }
+  }, [])
+
   const [selectCategoryThema, setSelectCategoryThema] = useState(categoryThema[0].text)
+
   const [selectItems, setSelectItems] = useState([])
+
   const navigate = useNavigate()
 
-  const toggleCategory = useCallback(() => {
-    setIsCategoryOpen((prev) => !prev)
-    gsap.to(categoryInner.current, {
-      overflow: isCategoryOpen ? "hidden" : "visible",
-    })
-  }, [isCategoryOpen])
-
-
-  const selectCategory = useCallback((itemText) => {
-    setSelectCategoryThema(itemText)
-    setIsCategoryOpen(false)
-    gsap.to(categoryInner.current, { overflow: "hidden" })
-  }, [])
+  // useEffect(()=>{
+  //   const categoryHeight = useMemo(()=>(30))
+  //   selectCategoryThema === categoryThema({text}) && gsap.set(categoryInner.current, {height:categoryInner.current*categoryHeight})
+  // })
 
   useEffect(() => {
     if (selectCategoryThema === "전체") {
@@ -54,18 +80,18 @@ export default function MobileProductList() {
       <h2>장바구니</h2>
       <div id={styles.basket_category}>
         <span id={styles.basket_category_title}>카테고리</span>
-        <div id={styles.basket_category_wrapper}>
-          <button onClick={toggleCategory}>{selectCategoryThema}<i className="fa-solid fa-sort-down"></i></button>
-          <ul id={styles.basket_category_inner} ref={categoryInner} style={{ display: isCategoryOpen ? "block" : "none" }}>
-            {
-              categoryThema.map((item) => (
-                <li key={item.index} onClick={() => {
-                  selectCategory(item.text)
-                }} className={`${item.text === selectCategoryThema && styles.selected}`} ref={categoryInner}>{item.text}</li>
-              ))
-            }
-          </ul>
-        </div>
+        <ul id={styles.basket_category_inner} ref={categoryInner}>
+          {
+            categoryThema.map((item) => (
+              <li key={item.index} onClick={() => {
+                setSelectCategoryThema(item.text)
+                // closeCategory(true)
+                setIsCategoryOpen(true)
+              }} className={`${item.text === selectCategoryThema && styles.selected}`} ref={categorylist}>{item.text}</li>
+            ))
+          }
+        </ul>
+        <button onClick={openCategory}><i className="fa-solid fa-sort-down"></i></button>
       </div>
       {/* <div id={styles.basket_select_wrap}>
         <input id={styles.select_check} type='checkbox' />

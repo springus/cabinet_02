@@ -1,9 +1,10 @@
 div.ad_wrap{
   width:100%;
-  height:170px;
+  min-height:170px;
   padding-top:20px;
   padding-bottom:20px;
   box-sizing:border-box;
+  /* background:red; */
 }
 
 div.ad_wrap>img{

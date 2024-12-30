@@ -43,6 +43,7 @@ span#basket_category_title {
 ul#basket_category_inner {
   width: 300px;
   height: 60px;
+  cursor:pointer;
   /* display:flex;
   flex-wrap:wrap;
   flex-direction:row;

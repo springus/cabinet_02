@@ -44,7 +44,7 @@ export default function MobileRecommend() {
     }
   }, [products, selectRecommend])
 
-  console.log(selectItem)
+  // console.log(selectItem)
 
 
 

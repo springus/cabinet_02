@@ -146,7 +146,7 @@ export default function MobileHeader() {
                       :
                       <>
                         {item.name}
-                        <i class="fa-solid fa-chevron-right"></i>
+                        <i className="fa-solid fa-chevron-right"></i>
                         <ul id={styles.gnb_inner_list}>
                           {
                             item.gnbInnerList.map((item) => (

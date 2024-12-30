@@ -9,6 +9,7 @@ section#recommend_wrap {
   left: 0px;
   top: -20px;
   background: #ffffff;
+  z-index:1;
 }
 
 ul#recommend_inner {
@@ -19,6 +20,7 @@ ul#recommend_inner {
   justify-content: flex-start;
   align-content: center;
   overflow: hidden;
+  cursor:pointer;
 }
 
 ul#recommend_inner>li {
@@ -70,10 +72,9 @@ p#bestseller_name {
 }
 
 
-ul#bestseller_inner>li p#morebook {
+p#morebook {
   width: 100%;
   height: 30px;
   margin-top: 30px;
   font: normal 16px/30px "Noto Sans KR";
-  /* color:black; */
 }
